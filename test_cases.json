@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "input": "fever for 3 days, no cough, mild headache",
+    "expected_urgency": "Routine",
+    "expected_action": "See a general physician within the week"
+  },
+  {
+    "id": 2,
+    "input": "crushing chest pain radiating to left arm, sweating, short of breath",
+    "expected_urgency": "Emergency",
+    "expected_action": "Call emergency services immediately / go to ER"
+  },
+  {
+    "id": 3,
+    "input": "sore throat and runny nose since yesterday, no fever",
+    "expected_urgency": "Routine",
+    "expected_action": "Self-care, see a doctor if it worsens after a few days"
+  },
+  {
+    "id": 4,
+    "input": "sudden severe headache, worst of my life, blurred vision, confusion",
+    "expected_urgency": "Emergency",
+    "expected_action": "Go to ER immediately - possible stroke/aneurysm symptoms"
+  },
+  {
+    "id": 5,
+    "input": "twisted ankle while running, swelling, can bear some weight",
+    "expected_urgency": "Urgent",
+    "expected_action": "See a doctor within 24 hours, possible sprain/fracture"
+  },
+  {
+    "id": 6,
+    "input": "mild stomach ache after eating spicy food, no vomiting, no fever",
+    "expected_urgency": "Routine",
+    "expected_action": "Self-care, monitor symptoms"
+  },
+  {
+    "id": 7,
+    "input": "high fever 104F, stiff neck, sensitive to light, rash",
+    "expected_urgency": "Emergency",
+    "expected_action": "Go to ER immediately - possible meningitis symptoms"
+  },
+  {
+    "id": 8,
+    "input": "persistent dry cough for 2 weeks, no fever, mild fatigue",
+    "expected_urgency": "Urgent",
+    "expected_action": "See a doctor within a few days to rule out infection"
+  },
+  {
+    "id": 9,
+    "input": "minor cut on finger while cooking, bleeding stopped, cleaned it",
+    "expected_urgency": "Routine",
+    "expected_action": "Self-care, basic first aid, no need for a doctor unless it worsens"
+  },
+  {
+    "id": 10,
+    "input": "sudden difficulty breathing, lips turning blue, wheezing",
+    "expected_urgency": "Emergency",
+    "expected_action": "Call emergency services immediately"
+  }
+]
